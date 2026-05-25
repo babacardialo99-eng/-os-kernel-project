@@ -46,11 +46,13 @@ sudo rmmod producer_consumer
 ```
 
 ## Sample Output
+```
 ###[thread_init_module]### Kernel module received inputs: UID:1000, Buffer-Size:50, prod:1, cons:1
 ###[producer_thread_function]### kProducer-1 Producer Thread stopped.
 ###[thread_exit_module]### Total number of items produced: 500
 ###[thread_exit_module]### Total number of items consumed: 500
 ###[thread_exit_module]### Total elapsed time for UID 1000 is   1:14:42
+```
 
 ## Test Screenshots
 
